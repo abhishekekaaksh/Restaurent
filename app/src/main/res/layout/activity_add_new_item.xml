@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+>
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/red">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Add Menu"
+            android:textColor="@color/white"
+            android:textSize="10pt" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_left_black_24dp"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/topscroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_margin="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/offer_bg">
+
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_width="match_parent"
+                android:layout_height="160sp"
+                android:layout_margin="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_bg" />
+
+            <LinearLayout
+                android:id="@+id/linj"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/camera"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <Button
+                    android:id="@+id/veg"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/greenn"
+                    android:text="Vegatarian"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/nveg"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/red"
+                    android:text="Non Vegatarian"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_margin="5dp"
+                android:id="@+id/categ_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linj"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/im_background"
+                android:hint="Enter Category Name"
+                android:padding="10dp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/categ_name"
+                android:layout_margin="5dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/im_background" />
+
+            <LinearLayout
+                android:id="@+id/linedit"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <EditText
+                    android:id="@+id/eprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/im_background"
+                    android:hint="Enter Price"
+                    android:padding="10dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/eofferpr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/im_background"
+                    android:hint="Enter Offer Price"
+                    android:padding="10dp"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_margin="5dp"
+                android:id="@+id/ediscription"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/linedit"
+                android:background="@drawable/im_background"
+                android:gravity="top"
+                android:hint="Write Description"
+                android:padding="10dp"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/ediscription"
+                android:layout_centerInParent="true"
+                android:layout_margin="15dp"
+                android:background="@color/red"
+                android:text="save"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

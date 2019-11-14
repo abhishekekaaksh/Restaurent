@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/login_logo"
+        android:scaleType="fitXY"
+        android:id="@+id/userimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/tv_username"
+        android:layout_toRightOf="@+id/userimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_regular"
+        android:textColor="@color/black"
+        android:text="Mukersh"/>
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/tv_review"
+        android:layout_below="@+id/tv_username"
+        android:layout_toRightOf="@+id/userimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_regular"
+        android:textColor="@color/black"
+        android:text="Review"/>
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/tv_rating"
+        android:layout_below="@+id/tv_username"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_regular"
+        android:textColor="@color/black"
+        android:text="Review"/>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/tv_create"
+        android:layout_below="@+id/tv_review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_regular"
+        android:textColor="@color/black"
+        android:text="date"/>
+<View
+    android:layout_below="@+id/userimage"
+    android:layout_width="match_parent"
+    android:background="#bfbfbf"
+    android:layout_height="2dp"/>
+</RelativeLayout>
+
+
+
+
+</RelativeLayout>

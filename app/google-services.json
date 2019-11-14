@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_number": "653111269462",
+    "firebase_url": "https://restaurent-afca4.firebaseio.com",
+    "project_id": "restaurent-afca4",
+    "storage_bucket": "restaurent-afca4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653111269462:android:2a402ce7ee9e5b08fb03f7",
+        "android_client_info": {
+          "package_name": "com.foodona.restaurent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653111269462-oqqnct210t23a4jcr88v9lur1kub5kj6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.foodona.restaurent",
+            "certificate_hash": "63de015dd471006349c2ab99ae022ab9a7613da7"
+          }
+        },
+        {
+          "client_id": "653111269462-ahcrdt1hb3fduf7u221urvgohigb144b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+
+
+
+          "current_key": "AIzaSyCzD9rP4Pzf8t2cW0VV0ttWzcX9Uu6DbOw"
+
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653111269462-ahcrdt1hb3fduf7u221urvgohigb144b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

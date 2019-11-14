@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Adapter.AdapterOffer">
+
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/offer_bg">
+
+        <ImageView
+            android:id="@+id/rsimage"
+            android:layout_width="15pt"
+            android:layout_height="15pt"
+            android:layout_margin="15dp"
+            android:src="@drawable/rupee" />
+
+        <ImageView
+            android:id="@+id/forward"
+            android:layout_width="15pt"
+            android:layout_height="15pt"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"
+            android:src="@drawable/forward" />
+
+        <TextView
+            android:id="@+id/netd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/rsimage"
+            android:text="Net Discount"
+            android:textColor="@color/black"
+            android:textSize="7pt" />
+
+        <TextView
+            android:id="@+id/nd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/netd"
+            android:layout_toRightOf="@+id/rsimage"
+            android:text="1 or more outlets"
+            android:textColor="@color/black"
+            android:textSize="5pt" />
+
+        <TextView
+            android:id="@+id/recc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rsimage"
+           android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Recommended For"
+            android:textColor="@color/black"
+            android:textSize="7pt" />
+
+        <TextView
+
+            android:id="@+id/incs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recc"
+            android:layout_marginLeft="10dp"
+            android:text="Increasing order voloume,increase average, \n reducing customerorder"
+            android:textColor="@color/black"
+            android:textSize="5pt" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

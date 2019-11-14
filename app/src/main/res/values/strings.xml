@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Restaurent</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create">Create Menu</string>
+    <string name="rece">Receive Order</string>
+    <string name="acorre">Accept or Reject The order</string>
+    <string name="manage">Manage The Avablity Status</string>
+    <string name="show">Show Menu</string>
+    <string name="mark">Mark as ready</string>
+    <string name="trackd">Track Driver</string>
+
+    <string name="offer">Offer and Discount</string>
+    <string name="orders">Order Status</string>
+    <string name="track">Live Tracking</string>
+    <string name="driver">Driver Auto Dispatch</string>
+    <string name="rating">View Ratings and feedback</string>
+    <string name="title_activity_order">OrderActivity</string>
+    <!--"current_key": "AIzaSyCzD9rP4Pzf8t2cW0VV0ttWzcX9Uu6DbOw"-->
+    <!--
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCzD9rP4Pzf8t2cW0VV0ttWzcX9Uu6DbOw</string>
+-->
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_fragment_restaurent_review">FragmentRestaurentReview</string>
+    <string name="title_activity_review_adapter">ReviewAdapter</string>
+
+</resources>
